@@ -1,8 +1,75 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
 
-*/
+}
+
+body {
+    font-family: 'poppins';
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+#navbar ul {
+    list-style: none;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#tittle {
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+#tittle h1 {
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.icons img {
+    width: 100px;
+}
+
+.icons {
+    text-align: center;
+    width: 230px;
+
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #00B172;
+}
