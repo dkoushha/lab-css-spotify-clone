@@ -27,10 +27,10 @@ body {
 
 #navbar ul {
     list-style: none;
-    width: 600px;
+    width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #tittle {
@@ -52,13 +52,30 @@ body {
     font-weight: 900;
 }
 
+#offers {
+    text-align: center;
+}
+
+#offers #heading {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: inline-block;
+    border-bottom: 3px solid #00B172;
+    ;
+}
+
 .icons img {
     width: 100px;
 }
 
 .icons {
-    text-align: center;
     width: 230px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -72,4 +89,82 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #00B172;
+}
+
+footer {
+    padding: 70px 70px;
+    background-color: #00B172;
+    color: white;
+    height: 650px;
+}
+
+footer img {
+    width: 350px;
+
+}
+
+#flexFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .footerIcons {
+    width: 350px;
+    text-align: center;
+}
+
+footer #spotifyIcon {
+    width: 120px;
+
+
+
+}
+
+#flexFooterIconsS {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flexFooterIconsS>div {
+    width: 350px;
+    padding-bottom: 20px;
+}
+
+#footerHeading {
+    border-bottom: 3px solid white;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 30px;
+    padding-bottom: 0;
+
+}
+
+footer h4 {
+    border-bottom: none;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+footer p {
+    font-size: 20px;
+    width: 330px;
+    padding-bottom: 40px;
+
+}
+
+
+
+
+
+#flexFooter #firstIconFooter h4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.footerIconImg {
+    align-self: center;
 }
